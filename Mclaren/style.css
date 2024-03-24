@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("car3.avif");
+  background-size: 100%;
+}
+
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: space-between;
+}
+
+.header img {
+  margin-left: 100px;
+  width: 100px;
+}
+
+.header .nav {
+  padding: 34px;
+  display: flex;
+}
+
+.header .nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+}
+
+.header .nav a:hover {
+  color: white;
+}
+
+.header .nav2  {
+    /* margin-right: 20px; */
+    margin-top: 13px;
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header .nav2 .retail a {
+    border: 1px solid grey;
+    padding: 4px 9px 2px 9px;
+    height: 20px;
+}
+
+.header .nav2 a {
+    text-decoration: none;
+    color: grey;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.header .nav2 a:hover {
+    color: white;
+    border-color: white;
+}
+
+.write .write1{
+    color: white;
+    margin-left: 6%;
+    font-size: 25px;
+    font-weight: 2px;
+}
+
+.write .write2{
+    color: white;
+    margin-left: 6%;
+    font-size: 70px;
+    font-weight: 30;
+}
+
+.write .discover {
+  margin-left: 7%;
+  background-color: rgb(255, 98, 0);
+  font-weight: 600;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 4px 35px 1px 35px;
+  letter-spacing: 0.07em;
+  transition: width 0.5s, height 0.5s;
+}
+.write .discover a {
+    text-decoration: none;
+    color: white;
+}
+
+.write .discover:hover {
+  width: 160px;
+  height: 32px;
+  box-shadow: rgba(248, 93, 3, 0.2) 10px 7px 29px 10px;
+}
+
+
